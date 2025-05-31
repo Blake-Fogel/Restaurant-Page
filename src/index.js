@@ -19,6 +19,5 @@ contactButton.addEventListener('click',(event) => {
     contentContainer.innerHTML = '';
     loadContact.call(contentContainer);
 })
-//loadHome.call(contentContainer);
+loadHome.call(contentContainer);
 //loadMenu.call(contentContainer);
-loadContact.call(contentContainer);
